@@ -7,8 +7,8 @@ ARG DNSCRYPT_PROXY_BASE_URL="https://github.com/DNSCrypt/dnscrypt-proxy/releases
 
 # DNSCrypt proxy
 RUN curl -sSLf "${DNSCRYPT_PROXY_BASE_URL}/dnscrypt-proxy-linux_$(case $(uname -m) in x86_64) echo x86_64 ;; aarch64) echo arm64 ;; esac)-${DNSCRYPT_PROXY_VERSION}.tar.gz" | \
-    tar -xzvf - --directory /usr/local/bin --strip-components=1 --wildcards '*/dnscrypt-proxy' &&\
-    chmod +x /usr/local/bin/dnscrypt-proxy
+	tar -xzvf - --directory /usr/local/bin --strip-components=1 --wildcards '*/dnscrypt-proxy' &&\
+	chmod +x /usr/local/bin/dnscrypt-proxy
 
 # Files
 COPY ./root /
