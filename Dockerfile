@@ -2,7 +2,7 @@
 FROM ghcr.io/fab-infra/base-image:opensuse15.4
 
 # Arguments
-ARG DNSCRYPT_PROXY_VERSION="2.1.1"
+ARG DNSCRYPT_PROXY_VERSION="2.1.2"
 ARG DNSCRYPT_PROXY_BASE_URL="https://github.com/DNSCrypt/dnscrypt-proxy/releases/download/${DNSCRYPT_PROXY_VERSION}"
 
 # DNSCrypt proxy
