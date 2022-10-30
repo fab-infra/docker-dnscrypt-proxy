@@ -1,5 +1,5 @@
-# DNSCrypt proxy based on openSUSE Leap 15.3
-FROM ghcr.io/fab-infra/base-image:opensuse15.3
+# DNSCrypt proxy based on openSUSE Leap 15.4
+FROM ghcr.io/fab-infra/base-image:opensuse15.4
 
 # Arguments
 ARG DNSCRYPT_PROXY_VERSION="2.1.1"
