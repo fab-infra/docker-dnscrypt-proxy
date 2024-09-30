@@ -1,0 +1,6 @@
+[template]
+src = "allowed-names.tmpl"
+dest = "/etc/dnscrypt-proxy/allowed-names.txt"
+keys = [
+    "/allowed/names"
+]

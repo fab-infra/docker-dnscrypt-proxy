@@ -1,0 +1,6 @@
+[template]
+src = "blocked-ips.tmpl"
+dest = "/etc/dnscrypt-proxy/blocked-ips.txt"
+keys = [
+    "/blocked/ips"
+]

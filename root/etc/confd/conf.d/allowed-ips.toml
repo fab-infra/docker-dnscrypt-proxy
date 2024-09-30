@@ -1,0 +1,6 @@
+[template]
+src = "allowed-ips.tmpl"
+dest = "/etc/dnscrypt-proxy/allowed-ips.txt"
+keys = [
+    "/allowed/ips"
+]

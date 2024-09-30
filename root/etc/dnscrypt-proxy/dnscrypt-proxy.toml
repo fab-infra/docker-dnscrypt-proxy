@@ -21,6 +21,18 @@ cache_max_ttl = 86400
 cache_neg_min_ttl = 60
 cache_neg_max_ttl = 600
 
+[blocked_names]
+blocked_names_file = '/etc/dnscrypt-proxy/blocked-names.txt'
+
+[blocked_ips]
+blocked_ips_file = '/etc/dnscrypt-proxy/blocked-ips.txt'
+
+[allowed_names]
+allowed_names_file = '/etc/dnscrypt-proxy/allowed-names.txt'
+
+[allowed_ips]
+allowed_ips_file = '/etc/dnscrypt-proxy/allowed-ips.txt'
+
 [sources]
   [sources.'public-resolvers']
     urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md', 'https://download.dnscrypt.info/resolvers-list/v3/public-resolvers.md', 'https://ipv6.download.dnscrypt.info/resolvers-list/v3/public-resolvers.md', 'https://download.dnscrypt.net/resolvers-list/v3/public-resolvers.md']

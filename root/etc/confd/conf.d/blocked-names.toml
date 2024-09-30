@@ -1,0 +1,6 @@
+[template]
+src = "blocked-names.tmpl"
+dest = "/etc/dnscrypt-proxy/blocked-names.txt"
+keys = [
+    "/blocked/names"
+]
