@@ -19,7 +19,7 @@ The following environment variables can be used with this container.
 | ALLOWED_IPS | List of allowed IPs (space-separated) | |
 | ALLOWED_NAMES | List of allowed names (space-separated) | |
 | BLOCKED_IPS | List of blocked IPs (space-separated) | |
-| BLOCKED_IPS | List of blocked names (space-separated) | |
+| BLOCKED_NAMES | List of blocked names (space-separated) | |
 
 ## Useful links
 
